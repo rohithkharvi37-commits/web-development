@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-layout{
+    background-color: beige;
+    padding:30px;
+}
+.box{
+    background-color: pink;
+    padding: 20px;
+}
+.main-header{
+    background-color: aqua;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.flex-layout2{
+    background-color: beige;
+    padding:30px;
+    display: flex;
+    gap: 20px;
+}
+.box2{
+    background-color: pink;
+    padding: 20px;
+}
+
+
+
+.flex-layout3{
+    background-color: beige;
+    padding:30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.box3{
+    background-color: pink;
+    padding: 20px;
+}
+
+
+.flex-layout4{
+    background-color: beige;
+    padding:30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.box4{
+    background-color: pink;
+    padding: 20px;
+    flex: 1;
+}
+
+
+.flex-layout5{
+    background-color: beige;
+    padding:30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.box5{
+    background-color: pink;
+    padding: 20px;
+    flex: 1;
+}
+
+
+.flex-layout6{
+    background-color: beige;
+    padding:30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items:end;
+}
+.box6{
+    background-color: pink;
+    padding: 20px;
+    flex: 1;
+}
+
+
+
+
+
+.grid-layout{
+    padding: 35px;
+    background-color: rgb(214, 145, 156);
+}
+.grid-item{
+    background-color:rgb(170, 130, 207);
+    color: #ffffff;
+    padding: 50px;
+}
+
+
+.grid-layout2{
+    padding: 35px;
+    background-color: rgb(214, 145, 156);
+    display: grid;
+    grid-template-columns: 200px 350px 100px;
+    gap: 20px;
+}
+
+.grid-item2{
+    background-color:rgb(170, 130, 207);
+    color: #ffffff;
+    padding: 50px;
+}
+
+.grid-layout3{
+    padding: 35px;
+    background-color: rgb(214, 145, 156);
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    gap: 20px;
+}
+
+.grid-item3{
+    background-color:rgb(170, 130, 207);
+    color: #ffffff;
+    padding: 50px;
+    border: solid black;
+}
+
+
+.grid-layout4{
+    padding: 35px;
+    background-color: rgb(214, 145, 156);
+    display: grid;
+    grid-template-rows: 2fr 3fr 1fr;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.grid-item4{
+    background-color:rgb(170, 130, 207);
+    color: #ffffff;
+    padding: 50px;
+    border: solid black;
+}
