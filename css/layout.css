@@ -78,6 +78,7 @@
     background-color: beige;
     padding:30px;
     display: flex;
+    flex-wrap: wrap; /*mobile responsiveness*/
     gap: 20px;
     justify-content: space-evenly;
     align-items:end;
@@ -147,4 +148,27 @@
     color: #ffffff;
     padding: 50px;
     border: solid black;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .main-header{
+        font-size: 20px;
+        background-color: blanchedalmond;
+    }
+    .flex-layout6{
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 520px) {
+    .main-header{
+        font-size: 24px;
+    }
+    .grid-layout4{   
+        grid-template-columns: 1fr 1fr 2fr;
+     }
+    
 }
